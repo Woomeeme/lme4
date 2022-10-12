@@ -1,0 +1,738 @@
+lme4 (1.1-27.1-2) unstable; urgency=medium
+
+  * Simple rebuild for unstable following Debian 11 release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Aug 2021 07:07:31 -0500
+
+lme4 (1.1-27.1-1) experimental; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 01 Jul 2021 13:50:11 -0500
+
+lme4 (1.1-27-1) experimental; urgency=medium
+
+  * New upstream release (to experimental during freeze)
+
+  * debian/control: Set Build-Depends: to recent R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 19 May 2021 18:54:17 -0500
+
+lme4 (1.1-26-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 01 Dec 2020 10:40:35 -0600
+
+lme4 (1.1-25-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Switch to virtual debhelper-compat (= 11)
+  * debian/compat: Removed
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 23 Oct 2020 21:11:30 -0500
+
+lme4 (1.1-23-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version
+
+  * debian/control: Add new (Build-)Depends: on r-cran-statmod
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 09 Apr 2020 16:11:10 -0500
+
+lme4 (1.1-21-2) unstable; urgency=medium
+
+  * Source-only upload
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 16 Aug 2019 17:26:14 -0500
+
+lme4 (1.1-21-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Added (Build-)Depends: for r-cran-boot
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 09 Mar 2019 07:12:57 -0600
+
+lme4 (1.1-20-3) unstable; urgency=medium
+
+  * debian/control: Added Breaks: (in correct position) for two affected
+    downstream packages to ensure matching versions are auto-tested.
+    						  	(Closes: #922198)
+    
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 13 Feb 2019 09:00:19 -0600
+
+lme4 (1.1-20-2) unstable; urgency=medium
+
+  * debian/control: Added Breaks: for two affected downstream packages to
+    ensure matching versions are auto-tested 	
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 13 Feb 2019 05:46:53 -0600
+
+lme4 (1.1-20-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 07 Feb 2019 16:06:12 -0600
+
+lme4 (1.1-19-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 12 Nov 2018 07:09:57 -0600
+
+lme4 (1.1-18-1-1) unstable; urgency=medium
+
+  * New upstream release
+ 
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Build-Depends: to 'debhelper (>= 10)'
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Vcs-Browser: and Vcs-Git:
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 18 Aug 2018 07:44:10 -0500
+
+lme4 (1.1-17-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 03 Apr 2018 17:24:32 -0500
+
+lme4 (1.1-16-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Switch from cdbs to dh-r
+  * debian/rules: Idem
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 28 Mar 2018 10:54:30 -0500
+
+lme4 (1.1-15-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 22 Dec 2017 06:20:19 -0600
+
+lme4 (1.1-14-1) unstable; urgency=medium
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/compat: Increase level to 9
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 30 Sep 2017 16:27:47 -0500
+
+lme4 (1.1-13-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  * debian/control: Add Depends: on ${misc:Depends}
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 19 Apr 2017 06:14:44 -0500
+
+lme4 (1.1-12-2) unstable; urgency=medium
+
+  * debian/compat: Created 			(Closes: #828115)
+ 
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 25 Jun 2016 07:14:22 -0500
+
+lme4 (1.1-12-1) unstable; urgency=medium
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 17 Apr 2016 09:44:49 -0500
+
+lme4 (1.1-11-1) unstable; urgency=low
+
+  * New upstream release
+ 
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 12 Feb 2016 13:55:12 -0600
+
+lme4 (1.1-10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 06 Oct 2015 22:33:37 -0500
+
+lme4 (1.1-9-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 20 Aug 2015 18:48:03 -0500
+
+lme4 (1.1-8-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 27 Jun 2015 07:20:27 -0500
+
+lme4 (1.1-7-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * Upload was delayed for seven weeks it took for the new Build-Depends
+    r-cran-nlopr to get into unstable.  NEW queue is usually much quicker,
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 28 Aug 2014 14:04:58 -0500
+
+lme4 (1.1-6-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 13 Apr 2014 10:41:03 -0500
+
+lme4 (1.1-5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 14 Mar 2014 06:58:48 -0500
+
+lme4 (1.0-6-2) unstable; urgency=low
+
+  * Rebuilt as required for Rcpp 0.11.0
+  * debian/control: Added (Build-)Depends: on correspondingly rebuilt
+    versions of RcppEigen (r-cran-rcppeigen) and minqa (r-cran-minqa)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 04 Feb 2014 06:38:09 -0600
+
+lme4 (1.0-6-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 02 Feb 2014 16:48:41 -0600
+
+lme4 (1.0-5-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  
+  * debian/control: Update Build-Depends: to r-cran-matrix (>= 1.1-0)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 29 Oct 2013 06:33:48 -0500
+
+lme4 (1.0-4-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Added new (Build-)Depends: r-cran-mass, r-cran-minqa
+    and r-cran-rcppeigen
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 21 Sep 2013 11:26:57 -0500
+
+lme4 (0.999999-2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 16 Apr 2013 06:49:00 -0500
+
+lme4 (0.999999-0-2) unstable; urgency=low
+
+  * debian/control: Set Build-Depends: to current R version 
+  
+  * (Re-)building with R 3.0.0 (beta)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 30 Mar 2013 08:21:30 -0500
+
+lme4 (0.999999-0-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set Build-Depends: to current R version
+  * debian/control: Change Depends to ${R:Depends}
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 23 Jun 2012 13:55:52 -0500
+
+lme4 (0.999375-42-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 04 Oct 2011 13:18:48 -0500
+
+lme4 (0.999375-41-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Updated (Build-)Depends: to r-cran-matrix (>= 0.9996875)
+    as per upstream DESCRIPTION file
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 09 Aug 2011 14:29:59 -0500
+
+lme4 (0.999375-40-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 23 Jul 2011 09:55:11 -0500
+
+lme4 (0.999375-39-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 09 Mar 2011 21:28:20 -0600
+
+lme4 (0.999375-38-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 17 Feb 2011 08:40:00 -0600
+
+lme4 (0.999375-37-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 11 Nov 2010 11:00:44 -0600
+
+lme4 (0.999375-36-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 25 Oct 2010 17:16:19 -0500
+
+lme4 (0.999375-35-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 19 Aug 2010 14:34:21 -0500
+
+lme4 (0.999375-34-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 29 Jun 2010 16:00:57 -0500
+
+lme4 (0.999375-33-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Removed Doug from uploaders. Thanks for all the work!
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+  
+  * debian/control: Added 'r-cran-nlme' to (Build-)Depends:
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 03 Apr 2010 08:21:05 -0500
+
+lme4 (0.999375-32-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Updated (Build-)Depends: on r-cran-matrix
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 20 Oct 2009 15:51:38 -0500
+
+lme4 (0.999375-31-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 24 May 2009 09:33:47 -0500
+
+lme4 (0.999375-30-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Changed Section: to new section 'gnu-r'
+  
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.8.1
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 12 May 2009 20:49:07 -0500
+
+lme4 (0.999375-28-2) unstable; urgency=low
+
+  * Rebuilt under corrected pbuilder setup.
+  * debian/control: (Build-)Depends on rebuilt Matrix too.
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 03 Feb 2009 05:10:52 -0600
+
+lme4 (0.999375-28-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version 2.8.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 14 Dec 2008 08:37:15 -0600
+
+lme4 (0.999375-27-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 30 Sep 2008 19:28:44 -0500
+
+lme4 (0.999375-26-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 26 Aug 2008 08:00:37 -0500
+
+lme4 (0.999375-25-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 16 Aug 2008 13:30:20 -0500
+
+lme4 (0.999375-24-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 06 Aug 2008 16:14:15 -0500
+
+lme4 (0.999375-23-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 02 Aug 2008 16:16:55 -0500
+
+lme4 (0.999375-22-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 12 Jul 2008 19:03:08 -0500
+
+lme4 (0.999375-20-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 26 Jun 2008 21:44:32 -0500
+
+lme4 (0.999375-18-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 25 Jun 2008 16:13:05 -0500
+
+lme4 (0.999375-17-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: Set (Build-)Depends: to current R version 2.7.1
+  * debian/control: Set Standards-Version: to current version 3.8.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 23 Jun 2008 19:57:41 -0500
+
+lme4 (0.99875-9-3) unstable; urgency=low
+
+  * Rebuilding under the current R version
+  * debian/control: Updated (Build-)Depends accordingly
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 12 Apr 2008 12:19:43 -0500
+
+lme4 (0.99875-9-2) unstable; urgency=low
+
+  * Rebuilding with R 2.6.2 to fix link error on amd64 	(Closes: #470859)
+
+  * debian/control: Set (Build-)Depends: to current R version
+  * debian/control: Set Standards-Version: to current version 3.7.3
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 14 Mar 2008 06:34:20 -0500
+
+lme4 (0.99875-9-1+b1) unstable; urgency=low
+
+  * Rebuilding to aid the gfortran transition, no source or packaging change
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 10 Mar 2008 20:32:56 -0500
+
+lme4 (0.99875-9-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 15 Oct 2007 15:14:16 -0500
+
+lme4 (0.99875-8-1) unstable; urgency=low
+
+  * New upstream release
+  * Built with R 2.6.0 release candidate, setting (Build-)Depends: to 
+    'r-base-(core|dev) >> 2.5.1' to prevent move to testing before R 2.6.0
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 26 Sep 2007 16:55:40 -0500
+
+lme4 (0.99875-7-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated (Build-)Depends: on r-cran-matrix
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 04 Aug 2007 11:18:10 -0500
+
+lme4 (0.99875-6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 10 Jul 2007 23:06:45 -0500
+
+lme4 (0.99875-4-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: (Build-)Depends: updated to r-base-(dev|core) (>= 2.5.1)
+  * debian/control: Updated (Build-)Depends: to r-cran-matrix (>= 0.999375-0)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat, 07 Jul 2007 22:02:21 -0500
+
+lme4 (0.99875-2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu, 21 Jun 2007 18:17:25 -0500
+
+lme4 (0.99875-1-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated Build-Depends: to r-cran-matrix (>= 0.99875-2-1)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 11 Jun 2007 20:35:44 -0500
+
+lme4 (0.99875-0-2) unstable; urgency=low
+
+  * debian/control: Corrected (Build-)Depends to 
+    'r-cran-matrix (>= 0.99875-1-1)'			(Closes: #424725)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 16 May 2007 19:42:03 -0500
+
+lme4 (0.99875-0-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated (Build-)Depends: to 'r-base-core (>= 2.5.0)'
+  * debian/control: Set (Build-)Depends to 'r-cran-matrix (>= 0.99875-1)'
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 15 May 2007 18:12:11 -0500
+
+lme4 (0.9975-13-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Set (Build-)Depends to 'r-cran-matrix (>= 0.9975-10-1)'
+    as per the upstream changes
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 11 Feb 2007 09:18:17 -0600
+
+lme4 (0.9975-12-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Thu,  1 Feb 2007 10:51:04 -0600
+
+lme4 (0.9975-11-1) unstable; urgency=low
+
+  * New upstream release
+  
+  * debian/control: Updated (Build-)Depends: to 'r-base-core (>= 2.4.1)'
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 26 Jan 2007 18:49:14 -0600
+
+lme4 (0.9975-10-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat,  2 Dec 2006 19:43:07 -0600
+
+lme4 (0.9975-9-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 15 Nov 2006 21:56:10 -0600
+
+lme4 (0.9975-8-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated (Build-)Depends: r-cran-matrix (>= >= 0.9975-5)
+    to match the requirement in the upstream DESCRIPTON file 
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 25 Oct 2006 20:14:51 -0500
+
+lme4 (0.9975-7-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 20 Oct 2006 20:05:37 -0500
+
+lme4 (0.9975-6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Tue, 17 Oct 2006 18:09:10 -0500
+
+lme4 (0.9975-5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Mon, 16 Oct 2006 17:36:59 -0500
+
+lme4 (0.9975-4-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun, 15 Oct 2006 10:50:30 -0500
+
+lme4 (0.9975-3-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Tighten (Build-)Depensd to r-cran-matrix (>= 0.9975-3-1)
+    to fall into a self-made dpkg version sorting trap    (Closes: #391910)
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 11 Oct 2006 08:35:12 -0500
+
+lme4 (0.9975-1-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Set Build-Depends: to r-cran-matrix (>= 0.9975-2) 
+    as Matrix exports some symbols needed by lme4
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sun,  8 Oct 2006 10:08:55 -0500
+
+lme4 (0.9975-0-1) unstable; urgency=low
+
+  * New maintainer, keeping Doug as an Uploaders: in debian/control
+  
+  * New upstream release for the upcoming R 2.4.0 release, built using 
+    the R 2.4.0 releases candidate
+  * debian/control: Upgraded Build-Depends: to 'r-base-dev (>> 2.3.1)' 
+    and Depends: to 'r-base-core (>> 2.3.1)' accordingly
+
+  * debian/control: As of this upstream release, package now contains
+    compiled code, so changed Architecture: to any [lintian]
+  
+  * debian/control: Removed trailing synopsis in Description [lintian]
+  
+ -- Dirk Eddelbuettel <edd@debian.org>  Wed, 20 Sep 2006 23:27:25 -0500
+
+lme4 (0.995.2-1.1) unstable; urgency=low
+
+  * NMU
+  * debian/rules: Standardized to be aligned with other R packages
+						 (Closes: #352854)
+  * debian/control: Changed to Architecture: to `all'
+  * debian/control: Changed Build-Depends: to Build-Depends-Indep:
+  * debian/watch: Updated regular expression, added `uversionmangle'
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Fri, 17 Feb 2006 20:01:03 -0600
+
+lme4 (0.995.2-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/post{inst,rm}: No longer need to call /usr/bin/R for html index
+  * debian/rules: Updated with respect to build arch.
+  * debian/rules: Do not run 'R CMD check' on all architectures
+  * debian/control: Upgraded Standards-Version: to 3.6.2.1
+  * debian/watch: Corrected regular expression with (thanks, Rafael Laboissier)
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Fri, 27 Jan 2006 14:19:46 -0600
+
+lme4 (0.95.8-1) unstable; urgency=low
+
+  * New upstream release
+  * Upstream release no longer requires r-cran-latticeextra. Closes: Bug#307497 
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Fri, 20 May 2005 09:30:11 -0500
+
+lme4 (0.95.6-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Wed, 20 Apr 2005 08:50:10 -0500
+
+lme4 (0.6.11-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Updated versions of r-base, r-base-dev, and
+    r-cran-matrix in Build-Depends: and in Depends:
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Sun, 19 Dec 2004 08:02:39 -0600
+
+lme4 (0.6.10-1) unstable; urgency=low
+
+  * New upstream release
+  * debian/control: Changed from r-cran-lattice to r-cran-latticeextra in
+    Build-Depends:
+  * debian/control: Updated version of r-cran-matrix in Build-Depends:
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Wed, 15 Dec 2004 08:07:34 -0600
+
+lme4 (0.6.9-1) unstable; urgency=low
+
+  * New upstream release upload coordinated with upstream author and 
+    Debian maintainer Doug Bates as part of getting R 2.0.0 into Debian
+  * Rebuilt under R 2.0.0
+  * debian/control: Updated Build-Depends: and Depends: accordingly
+  * debian/control: Added r-cran-lattice to Build-Depends:
+  * debian/control: Removed full stop on Description: line [lintian]
+  * debian/post{inst,rm}: Call build-help.pl to update package.html list
+  * debian/watch: Added watch file
+
+ -- Dirk Eddelbuettel <edd@debian.org>  Sat,  9 Oct 2004 21:25:38 -0500
+
+lme4 (0.6.5-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Sat, 11 Sep 2004 10:49:08 -0500
+
+lme4 (0.6.1-2) unstable; urgency=low
+
+  * Add Build-Depends on r-cran-matrix.  Closes: Bug#255221
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Tue, 29 Jun 2004 11:05:54 -0500
+
+lme4 (0.6.1-1) unstable; urgency=low
+
+  * Initial Debian Release
+  * Closes: Bug#252312
+
+ -- Douglas Bates <bates@stat.wisc.edu>  Wed,  2 Jun 2004 12:56:27 -0500
+
+
