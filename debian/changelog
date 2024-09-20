@@ -1,3 +1,9 @@
+lme4 (1.1-27.1-2deepin0) unstable; urgency=medium
+
+  * No source change upload against GCC 12.
+
+ -- Tianyu Chen <sweetyfish@deepin.org>  Fri, 20 Sep 2024 12:12:26 +0800
+
 lme4 (1.1-27.1-2) unstable; urgency=medium
 
   * Simple rebuild for unstable following Debian 11 release
