@@ -13,8 +13,8 @@ zmargin <- theme(panel.spacing=unit(0,"lines"))
 library("lattice")
 library("minqa")
 opts_chunk$set(engine='R',dev='pdf', fig.width=9, fig.height=5.5,
-               prompt=TRUE, cache=TRUE, tidy=FALSE, comment=NA)
-render_sweave()
+               prompt=TRUE, cache=TRUE, tidy=FALSE, comment=NA, error = FALSE)
+knitr::render_sweave()
 
 ## ----sleep----------------------------------------------------------
 str(sleepstudy)

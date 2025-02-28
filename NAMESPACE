@@ -53,9 +53,9 @@ importFrom("boot", boot.ci)
 ## generics we provide methods for and re-export:
 importFrom("nlme", fixef,ranef, VarCorr, getGroups, getData)
 
-importFrom("Matrix", drop0, rankMatrix, sparseMatrix,
+importFrom("Matrix", drop0, rankMatrix, sparseMatrix, sparse.model.matrix,
            forceSymmetric, fac2sparse, KhatriRao, Diagonal, .bdiag,
-           as.matrix, bdiag)
+           as.matrix, bdiag, Matrix)
 importClassesFrom("Matrix", corMatrix, dgCMatrix, dpoMatrix, dCHMsimpl)
 ## methods incl. S4 generics:
 importMethodsFrom("Matrix", coerce, cov2cor, "%*%", crossprod,tcrossprod,
@@ -118,6 +118,7 @@ export(mkLmerDevfun)
 export(mkMerMod)
 export(mkRespMod)
 export(mkReTrms)
+export(mkNewReTrms)
 export(mkVarCorr)
 export(mkParsTemplate)
 export(mkDataTemplate)
@@ -214,6 +215,7 @@ S3method(log,thpr)
 S3method(logLik,merMod)
 S3method(model.frame,merMod)
 S3method(model.matrix,merMod)
+S3method(ngrps, default)
 S3method(ngrps,factor)
 S3method(ngrps,merMod)
 S3method(nobs,merMod)
@@ -284,3 +286,5 @@ S3method(getGroups,lmList4)
 S3method(rePCA,merMod)
 S3method(summary,prcomplist)
 export(rePCA)
+
+export(namedList)
